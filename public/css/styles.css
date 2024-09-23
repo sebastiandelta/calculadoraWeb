@@ -1,0 +1,59 @@
+/* public/css/styles.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.calculadora-container {
+    max-width: 400px;  /* Ancho máximo de la calculadora */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+
+.display {
+    height: 80px;  /* Altura del display */
+    font-size: 36px;  /* Tamaño de texto en el display */
+    text-align: right;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    height: 70px;  /* Altura de los botones */
+    font-size: 28px;  /* Tamaño de texto en los botones */
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-operator {
+    background-color: #007bff;  /* Color de fondo para operaciones */
+    color: white;
+}
+
+.btn-operator:hover {
+    background-color: #0056b3;  /* Color en hover */
+}
+
+.btn-danger {
+    background-color: #dc3545;  /* Color de fondo para el botón C */
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;  /* Color en hover */
+}
+
+.row {
+    display: flex;  /* Usar flexbox para la disposición de botones */
+}
+
+.row button {
+    flex: 1;  /* Hacer que todos los botones en la fila tengan el mismo ancho */
+}
